@@ -23,8 +23,4 @@ public class Sport extends AppCompatActivity {
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_sport);
         ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(adapter);
-    }
-
-}
-
+        listView.setAdapter(adapter);}}

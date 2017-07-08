@@ -23,8 +23,6 @@ public class Word {
         mAdressOfPlace = adressOfPlace;
         mImageResourceId = imageResourceId;
     }
-
-
     /**
      * Get the name of place.
      */
@@ -47,8 +45,4 @@ public class Word {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
-    }
-
-
-}
-
+    }}

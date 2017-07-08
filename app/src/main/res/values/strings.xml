@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">BerlinTourGuide</string>
+<string name="app_name">BerlinTourGuide</string>
+<string name="category_Dinner">Dinner</string>
+<string name="category_history">History</string>
+<string name="category_outDoor">Out Door</string>
+<string name="category_sport">Sport</string>
 </resources>
+

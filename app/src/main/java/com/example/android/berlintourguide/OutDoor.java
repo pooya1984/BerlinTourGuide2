@@ -22,6 +22,4 @@ public class OutDoor extends AppCompatActivity {
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_outDoor);
         ListView listView = (ListView) findViewById(R.id.list);
-        listView.setAdapter(adapter);
-    }
-}
+        listView.setAdapter(adapter);}}

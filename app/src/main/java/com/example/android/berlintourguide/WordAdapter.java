@@ -60,6 +60,4 @@ public class WordAdapter extends ArrayAdapter<Word> {
         textContainer.setBackgroundColor(color);
 
 
-        return listItemView;
-    }
-}
+        return listItemView;}}
