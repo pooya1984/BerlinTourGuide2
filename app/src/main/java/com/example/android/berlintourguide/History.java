@@ -15,10 +15,10 @@ public class History extends AppCompatActivity {
 
 
         final ArrayList<Word> Words = new ArrayList<Word>();
-        Words.add(new Word("Brandenburg Gate","Adress: Brandenburger Tor", R.drawable.history));
-        Words.add(new Word("fernsehturm", "Adress: Alexander Platz", R.drawable.history));
-        Words.add(new Word("Berlin Wall", "Adress: Warschauer Straße", R.drawable.history));
-        Words.add(new Word("Broken church", "Adress: zooloogische Garten", R.drawable.history));
+        Words.add(new Word("Brandenburg Gate","Adress: Brandenburger Tor", R.mipmap.brandenburgGate));
+        Words.add(new Word("fernsehturm", "Adress: Alexander Platz", R.mipmap.fernsehturm));
+        Words.add(new Word("Berlin Wall", "Adress: Warschauer Straße", R.mipmap.berlinWall));
+        Words.add(new Word("Broken church", "Adress: zooloogische Garten", R.mipmap.church));
 
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_history);

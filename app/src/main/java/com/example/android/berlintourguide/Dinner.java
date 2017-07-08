@@ -15,9 +15,9 @@ public class Dinner extends AppCompatActivity {
 
         final ArrayList<Word> Words = new ArrayList<Word>();
         Words.add(new Word("Burger King", "Adress: Potsdamer Platz",R.mipmap.burgerKing));
-        Words.add(new Word("Vapiano", "Adress: Alexander Platz", R.drawable.dinner));
-        Words.add(new Word("Sakura", "Adress: Kurfürstenstraße", R.drawable.dinner));
-        Words.add(new Word("Borrito-Berlin", "Adress: Nollendorfstrasse", R.drawable.dinner));
+        Words.add(new Word("Vapiano", "Adress: Alexander Platz",R.mipmap.vapiano));
+        Words.add(new Word("Sakura", "Adress: Kurfürstenstraße", R.mipmap.sakura));
+        Words.add(new Word("Burrito-Berlin", "Adress: Nollendorfstrasse", R.mipmap.burrito));
 
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_dinner);
