@@ -15,9 +15,9 @@ public class History extends AppCompatActivity {
 
 
         final ArrayList<Word> Words = new ArrayList<Word>();
-        Words.add(new Word("Brandenburg Gate","Adress: Brandenburger Tor", R.mipmap.brandenburgGate));
+        Words.add(new Word("Brandenburg Gate","Adress: Brandenburger Tor", R.mipmap.brandenburggate));
         Words.add(new Word("fernsehturm", "Adress: Alexander Platz", R.mipmap.fernsehturm));
-        Words.add(new Word("Berlin Wall", "Adress: Warschauer Straße", R.mipmap.berlinWall));
+        Words.add(new Word("Berlin Wall", "Adress: Warschauer Straße", R.mipmap.berlinwall));
         Words.add(new Word("Broken church", "Adress: zooloogische Garten", R.mipmap.church));
 
 
