@@ -18,7 +18,7 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:background="#B2FF59"
-            android:src="@mipmap/history" />
+            android:src="@drawable/history" />
 
         <TextView
             android:id="@+id/history"
@@ -37,7 +37,7 @@
             android:layout_height="128dp"
             android:layout_marginTop="16dp"
             android:background="#607D8B"
-            android:src="@mipmap/outdoor" />
+            android:src="@drawable/out_door" />
 
         <TextView
             android:id="@+id/out_door"
@@ -65,7 +65,7 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:background="#FFEB3B"
-            android:src="@mipmap/dinner" />
+            android:src="@drawable/dinner" />
 
         <TextView
             android:id="@+id/dinner"
@@ -84,7 +84,7 @@
             android:layout_height="128dp"
             android:layout_marginTop="16dp"
             android:background="#EF5350"
-            android:src="@mipmap/sport" />
+            android:src="@drawable/sport" />
 
         <TextView
             android:id="@+id/sport"

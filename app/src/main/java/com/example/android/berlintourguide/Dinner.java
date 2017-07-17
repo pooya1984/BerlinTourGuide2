@@ -14,10 +14,10 @@ public class Dinner extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         final ArrayList<Word> Words = new ArrayList<Word>();
-        Words.add(new Word("Burger King", "Adress: Potsdamer Platz",R.mipmap.burgerking));
-        Words.add(new Word("Vapiano", "Adress: Alexander Platz",R.mipmap.vapiano));
-        Words.add(new Word("Sakura", "Adress: Kurfürstenstraße", R.mipmap.sakura));
-        Words.add(new Word("Burrito-Berlin", "Adress: Nollendorfstrasse", R.mipmap.burrito));
+        Words.add(new Word(getApplicationContext().getString(R.string.Burger_King), getApplicationContext().getString(R.string.Adress_Potsdamer_Platz),R.drawable.burger_king));
+        Words.add(new Word(getApplicationContext().getString(R.string.Vapiano), getApplicationContext().getString(R.string.Adress_Alexander_Platz),R.drawable.vapiano));
+        Words.add(new Word(getApplicationContext().getString(R.string.Sakura), getApplicationContext().getString(R.string.Adress_Kurfürstenstraße), R.drawable.sakura));
+        Words.add(new Word(getApplicationContext().getString(R.string.Burrito_Berlin), getApplicationContext().getString(R.string.Adress_Nollendorfstrasse), R.drawable.burrito));
 
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_dinner);

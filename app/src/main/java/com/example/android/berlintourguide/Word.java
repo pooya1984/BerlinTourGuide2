@@ -19,6 +19,9 @@ public class Word {
         mAdressOfPlace = adressOfPlace;
         mImageResourceId = imageResourceId;
     }
+
+
+
     public String getNameOfPlace() {
         return mNameOfPlace;
     }

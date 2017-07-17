@@ -15,10 +15,10 @@ public class Sport extends AppCompatActivity {
 
 
         final ArrayList<Word> Words = new ArrayList<Word>();
-        Words.add(new Word("Ice Hoky", "Adress: Reinickendorf", R.mipmap.icehokey));
-        Words.add(new Word("Golf", "Adress: Spandau ", R.mipmap.golf));
-        Words.add(new Word("Tennis", "Adress: Steglitz", R.mipmap.tennis));
-        Words.add(new Word("jogging", "Adress: Tier Garten", R.mipmap.jogging));
+        Words.add(new Word(getApplicationContext().getString(R.string.Ice_Hoky), getApplicationContext().getString(R.string.Adress_Reinickendorf), R.drawable.ice_hocky));
+        Words.add(new Word(getApplicationContext().getString(R.string.Golf),getApplicationContext().getString(R.string.Adress_Spandau), R.drawable.golf));
+        Words.add(new Word(getApplicationContext().getString(R.string.Tenesiy), getApplicationContext().getString(R.string.Adress_Steglitz), R.drawable.tennis));
+        Words.add(new Word(getApplicationContext().getString(R.string.jogging),getApplicationContext().getString(R.string.Adress_Tier_Garten), R.drawable.jogging));
 
 
         WordAdapter adapter = new WordAdapter(this, Words,R.color.category_sport);
