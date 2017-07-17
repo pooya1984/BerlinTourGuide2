@@ -96,6 +96,5 @@
             android:onClick="sportList"
             android:textColor="#EF5350"
             android:textStyle="bold" />
-
     </LinearLayout>
 </RelativeLayout>
